@@ -1,0 +1,5 @@
+*.keras
+dados/
+minhas_fotos/
+.ipynb_checkpoints/
+__pycache__/

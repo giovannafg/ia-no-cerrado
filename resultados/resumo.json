@@ -1,0 +1,45 @@
+{
+  "configuracao": {
+    "tamanho": 224,
+    "epocas": 8,
+    "max_por_classe_pv": null,
+    "ajuste_fino": true,
+    "semente": 42
+  },
+  "n_fotos": {
+    "pv_treino": 38013,
+    "pv_teste": 8146,
+    "pd_treino": 1990,
+    "pd_teste": 236
+  },
+  "resultados": [
+    {
+      "cenário": "Modelo A · teste laboratório",
+      "n_fotos": 8146,
+      "acurácia": 0.9811,
+      "acurácia_balanceada": 0.9861,
+      "f1_com_sintomas": 0.9868
+    },
+    {
+      "cenário": "Modelo A · teste campo",
+      "n_fotos": 236,
+      "acurácia": 0.8559,
+      "acurácia_balanceada": 0.8239,
+      "f1_com_sintomas": 0.8917
+    },
+    {
+      "cenário": "Modelo B · teste laboratório",
+      "n_fotos": 8146,
+      "acurácia": 0.9843,
+      "acurácia_balanceada": 0.9874,
+      "f1_com_sintomas": 0.989
+    },
+    {
+      "cenário": "Modelo B · teste campo",
+      "n_fotos": 236,
+      "acurácia": 0.8771,
+      "acurácia_balanceada": 0.8836,
+      "f1_com_sintomas": 0.8961
+    }
+  ]
+}
